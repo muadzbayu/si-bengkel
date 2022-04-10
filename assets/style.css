@@ -1,0 +1,12 @@
+td.header{
+    cursor:pointer;
+}
+
+.header .sign:after{
+    content:"+";
+    display:inline-block;
+}
+
+.header.expand .sign:after{
+    content:"-";
+ }
